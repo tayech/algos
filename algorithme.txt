@@ -1,0 +1,24 @@
+algorithme
+
+var
+int nbm:=0;
+int i:=0;
+int nbv:=0;
+tab t:=[a,i,o,u,e,y];
+int j:=0;
+bebut
+ecrire("donner une phrase",n)
+tantque(n[i]!=".")faire
+si(n[i]=" ")alors{
+nbm=nmb+1;
+i++;
+}
+fin si
+pour(j:=0,j<6,j++)alors
+si(n[i]=t[j])alors{nbv=nbv+1;}
+fin si
+fin tantque
+read(i);
+read(nbm);
+read(nbv);
+fin
